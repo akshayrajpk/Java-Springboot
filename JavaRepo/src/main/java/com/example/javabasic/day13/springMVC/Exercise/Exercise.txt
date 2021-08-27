@@ -1,0 +1,22 @@
+SPRING MVC Exercise:
+---------------------------------------------
+1. Create controller EmployeeController.java
+2. Two view
+    a.index.jsp
+    b.display.jsp
+3. Index.jsp contain 2 input fields
+    a. Employee Name
+    b. Employee address
+    c. Submit
+4. On Display.jsp , you will display EmployeeName and Employee address
+5. EmployeeController contain 2 methods.
+	1. default Mapping method ("/")
+	2.Post Mapping method. Name is as
+	@PostMapping("/display")
+	public string displayData(  @RequestParam("name") String name,
+	                            @RequestParam("address") String address,
+                                Model model
+                              ){
+                              //Your code
+                              }
+

@@ -1,0 +1,8 @@
+1. Create BiFunctional Interface of Arithmetic expression for
+    Subtraction/Division/Addition/Multiplication.
+
+2. Create BiFunctional Interface for String Operation which includes
+    Concatenation/Uppercase/LowerCase
+
+3. Create Constructor Reference Sample code in which Constructor
+    takes 2 parameters and print Descriptive message.

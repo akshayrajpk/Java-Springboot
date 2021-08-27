@@ -1,0 +1,9 @@
+Exercise 1 : SET Collection Object
+       Set<String> nameSets = new HashSet<>();
+       nameSets.forEach(name -> System.out.println(name));
+
+
+Exercise 2 : MAP  Object
+        Map<String, String> mapData = new HashMap<>();
+        mapData.put("A","APPLE");
+        mapData.forEach((k,v) -> System.out.println("Key :: "+k + " Value::"+ v));

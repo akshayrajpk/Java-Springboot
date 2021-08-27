@@ -1,0 +1,5 @@
+Exercise:
+------------------
+1. Create a Predicate which will filter even Numbers.
+2. Create ENUM of Year and implement functional Interface.
+

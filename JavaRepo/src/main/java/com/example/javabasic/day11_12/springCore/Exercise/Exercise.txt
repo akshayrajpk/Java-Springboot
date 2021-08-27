@@ -1,0 +1,14 @@
+1. Create class Employee .
+Field Name, Salary
+2. Create Interface IDisplay {
+    public void display(String msg);
+}
+3. Create class Display implements IDisplay {
+//Add implementation of display();
+}
+4. Create a context xml
+5. Inject IDisplay in Employee class
+5. Create Bean using setter based dependency
+6. Create Bean using constructor
+7. create client code for execution
+

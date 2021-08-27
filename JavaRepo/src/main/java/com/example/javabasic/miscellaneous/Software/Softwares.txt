@@ -1,0 +1,8 @@
+1. MYSQL DB
+2. Mongo DB
+3. PostMan Tool
+4. Docker
+5. Jenkins
+6. Apache Kafka
+7. WinZip / 7-Zip
+

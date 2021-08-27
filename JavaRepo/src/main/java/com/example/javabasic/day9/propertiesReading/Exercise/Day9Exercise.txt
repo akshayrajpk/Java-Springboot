@@ -1,0 +1,12 @@
+1. Create resources/cgi.properties file. Add the below properties with your defined values.
+    cgi.git =
+    cgi.username =
+    cgi.password =
+
+2. Create classes given for the above properties and read it using
+    a. ResourceBundle
+    b. @Value
+
+
+
+

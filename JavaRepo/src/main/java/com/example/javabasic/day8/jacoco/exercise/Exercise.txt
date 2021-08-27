@@ -1,0 +1,14 @@
+1. Create one class Arithmetic.java .
+    Add the below methods woth implementation.
+    1. Add
+    2. Substraction
+    3. Multiply
+    4.Division
+
+2. Create TestArithmetic.java
+Write test cases for the above methods using @Test annotation
+    1. Add
+    2. Substraction
+    3. Multiply
+    4.Division
+3. Create SONAR report and copy in exercise folder
