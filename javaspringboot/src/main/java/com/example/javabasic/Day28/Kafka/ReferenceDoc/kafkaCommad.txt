@@ -1,0 +1,20 @@
+start ZooKeeper:
+C:\DevelopmentSetup\kafka_2.12-2.5.0\bin\windows>zookeeper-server-start.bat C:\DevelopmentSetup\kafka_2.12-2.5.0\config\zookeeper.properties
+
+start the Kafka broker:
+cd kafka_2.13-2.6.0
+bin/kafka-server-start.bat C:\DevelopmentSetup\kafka_2.12-2.5.0\config\server.properties
+
+Create TOPIC:
+cd kafka_2.13-2.6.0
+bin/kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
+
+
+Produce and consume some messages
+1.
+cd kafka_2.13-2.6.0
+bin/kafka-console-producer.bat --topic quickstart-events11 --bootstrap-server localhost:9092
+
+
+
+bin/kafka-console-consumer.bat --topic quickstart-events11 --from-beginning --bootstrap-server localhost:9092

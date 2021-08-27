@@ -1,0 +1,8 @@
+1.Create Product store in MongoDb
+2. Create Product Entity {
+    id,type, description
+}
+3. Create Product Repository
+4. Create ProductController to add data in DB
+
+Implement the above in MySQL and NoSQL

@@ -1,0 +1,12 @@
+1.Create Employee DAO {
+        Name
+        Age
+        Salary
+        Id
+    }
+2. Create EmployeeServiceController.java consist of the following methods.
+    a. HTTP.GET -> Get all Employee Details -> /{id}
+    b. HTTP.GET -> Get all Employee Details -> /findAll
+    c. HTTP.PUT -> Update Employee Details -> /{id}
+    d. HTTP.POST -> Save Employee Details -> /employee
+    e. HTTP.DELETE -> Delete Employee Details -> /{id}

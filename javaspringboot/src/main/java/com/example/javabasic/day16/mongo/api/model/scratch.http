@@ -1,0 +1,29 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+#ctrl+shft+alt+insert
+POST localhost:8080/addBook
+Content-Type: application/json
+Connection: keep-alive
+
+{
+  "id":444,
+  "bookName": "Mongo344",
+  "authorName": "Author44"
+}
+
+<> 2021-07-31T103258.200.txt
+<> 2021-07-30T084010.200.txt
+<> 2021-07-30T083956.200.txt
+
+###
+GET localhost:8080/findAllBooks
+
+<> 2021-07-30T085818.200.json
+<> 2021-07-30T084041.200.json
+
+###

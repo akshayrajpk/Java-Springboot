@@ -1,0 +1,6 @@
+1.Create Student store in MongoDb
+2. Create Student Entity {
+    id,name, age, address
+}
+3. Create Student Repository
+4. Create StudentController to add data in DB

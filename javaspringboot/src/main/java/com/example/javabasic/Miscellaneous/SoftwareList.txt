@@ -1,0 +1,15 @@
+ ======================================
+|  Download & Install below Software's |
+ ======================================
+
+1. 7 Zip
+Download Link:  https://www.7-zip.org/a/7z1900-x64.exe
+
+2. KAFKA
+Download Link: https://archive.apache.org/dist/kafka/2.5.0/kafka_2.12-2.5.0.tgz
+
+3. Docker Desktop
+Download Link: https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header
+
+4.Jenkins
+Download Link: https://www.jenkins.io/download/thank-you-downloading-windows-installer

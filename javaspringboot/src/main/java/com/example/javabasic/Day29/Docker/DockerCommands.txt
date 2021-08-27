@@ -1,0 +1,18 @@
+docker build -t javaspringboot .
+
+docker images
+
+docker run -p 9099:9099 -t javaspringboot
+
+docker run -p 8080:9099 -t javaspringboot
+
+8080 -> Docker Port on which we want to run our App
+9099 -> Port from Application.properties
+
+STOP:
+docker stop <containerID>
+
+Docker Image list:
+docker ps -a
+
+

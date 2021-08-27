@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.universitysecond.universitysecond.UniversitysecondApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.642 s <<< FAILURE! - in com.universitysecond.universitysecond.UniversitysecondApplicationTests
+contextLoads  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration': Unsatisfied dependency expressed through field 'optionalArgs'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.netflix.discovery.AbstractDiscoveryClientOptionalArgs<?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.netflix.discovery.AbstractDiscoveryClientOptionalArgs<?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

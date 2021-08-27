@@ -1,0 +1,41 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+POST localhost:9090/expenses
+Content-Type: application/json
+Connection: keep-alive
+
+{
+  "item": "Laptop ",
+  "amount": "210.40"
+}
+
+<> 2021-08-04T110816.500.json
+<> 2021-08-03T063852.201.txt
+<> 2021-08-03T063822.201.txt
+<> 2021-08-03T063430.500.json
+<> 2021-08-03T063408.201.txt
+
+###
+POST localhost:9090/expenses/mongo
+Content-Type: application/json
+Connection: keep-alive
+{
+  "id": 3,
+  "item": "Mobile2 ",
+  "amount": "1222.10"
+}
+
+<> 2021-08-03T071854.201.txt
+<> 2021-08-03T071743.201.txt
+<> 2021-08-03T071613.201.txt
+<> 2021-08-03T071310.201.txt
+<> 2021-08-03T071106.500.json
+<> 2021-08-03T071051.404.json
+<> 2021-08-03T070936.404.json
+
+###
