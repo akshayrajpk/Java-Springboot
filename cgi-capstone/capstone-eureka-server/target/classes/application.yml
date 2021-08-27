@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: capstone-eureka-server
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
+    service-url:
+      defaultZone: http://localhost:9094/eureka
+
+server:
+  port: 9094
